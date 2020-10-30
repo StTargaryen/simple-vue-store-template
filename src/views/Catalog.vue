@@ -1,16 +1,16 @@
 <template>
   <div class="catalog">
     <h1>This is catalog page</h1>
-    <userList/>
+    <catalog-list/>
   </div>
 </template>
 
 <script>
-import userList from '../components/userList'
+import CatalogList from '../components/CatalogList';
 export default {
   name: 'Catalog',
   components: {
-    userList
+    CatalogList
   }
 }
 </script>

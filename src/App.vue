@@ -1,12 +1,18 @@
 <template>
   <div id="app">
+    <main-wrapper/>
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Catalog</router-link>
       <router-link to="/cart">to Cart</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+}
+</script>
 
 <style lang="scss">
 * {
@@ -20,7 +26,7 @@
   text-align: center;
   color: #2c3e50;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 900px;
 }
 
 #nav {
