@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <main-wrapper/>
     <div id="nav">
       <router-link to="/">Catalog</router-link>
       <router-link to="/cart">to Cart</router-link>
@@ -23,7 +22,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin: 0 auto;
   max-width: 900px;
@@ -54,8 +52,15 @@ export default {
       background: #42b983;
       border-color: #42b983;
       box-shadow: none;
-
     }
   }
+}
+
+.btn {
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+  border: 0;
+  outline: 0;
 }
 </style>
